@@ -5,7 +5,12 @@
 }
 body {
     overflow-x: hidden;
+    
+    
 }
+
+
+
 .navbar {
     box-shadow: 0px 2px 2px rgb(227, 215, 215);
 }
@@ -14,39 +19,42 @@ body {
     border-bottom: solid 2px orange;
 }
 @media screen and (max-width :576px){
-    .logo, .image, .image-reversed {
+    .logo{
         display: none;
     }
+  
+   
 }
 
+
+
+main {
+    background-position: absolute;
+    background: url("./img/Shape6.png") no-repeat right;
+}
+.content , .card {
+    box-shadow: 1px 3px 3px 3px rgb(227, 215, 215);
+    border-radius: 15px;
+    background-color: white;
+}
 
 .description h1,.description h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
-    
 }
 
-.lorem {
-    max-width: 600px;
-}
+
  h6 {
     font-family: monospace;
-    font-weight: bolder;
-}
-.image {
-    position: absolute;
-    top: -35%;
-    right: -25%;
-    height: 90vh;
-    width: 90vw;
-    background-color: orange;
-    border-radius: 50px;
-    transform: rotate(35deg);
+    font-weight: bold;
 }
 
 
-
-
+.carte :hover , .card :hover{
+    transform: scale(0.9);
+}
+.link {
+    font-weight: bold;
+}
 
 
 .transform {
@@ -66,4 +74,7 @@ body {
 }
 .js {
     width: 40%;
+}
+.icon :hover {
+    transform: scale(1.1);
 }
