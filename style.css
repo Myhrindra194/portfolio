@@ -28,18 +28,17 @@ body {
 
 
 
-main {
-    background-position: absolute;
+.partOne {
     background: url("./img/Shape6.png") no-repeat right;
 }
-.content , .card {
+.content , .card, .about {
     box-shadow: 1px 3px 3px 3px rgb(227, 215, 215);
     border-radius: 15px;
     background-color: white;
 }
 
-.description h1,.description h2 {
-    font-weight: bold;
+h1, h2 {
+    font-weight: bold !important; 
 }
 
 
@@ -47,7 +46,10 @@ main {
     font-family: monospace;
     font-weight: bold;
 }
+.partTwo {
+    background: url("./img/Shape.png") no-repeat left;
 
+}
 
 .carte :hover , .card :hover{
     transform: scale(0.9);
