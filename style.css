@@ -3,9 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
+body, main {
     overflow-x: hidden;
 }
+
+.preloader {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, orange 60%, cyan);
+    transition: opacity 4s , visibility 0.5s;
+}
+.preloader-hide {
+    opacity: 0;
+    visibility: hidden;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #34db82;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
 
 .navbar {
     box-shadow: 0px 2px 2px rgb(227, 215, 215);
@@ -14,8 +48,6 @@ body {
     -o-backdrop-filter: blur(10px);
     -ms-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-
-    
 }
 .menu .nav-item :hover {
     transform: scale(1);
@@ -27,6 +59,7 @@ body {
     }
 }
 
+
 .partOne {
     background: url("./img/Shape6.png") no-repeat right;
 }
@@ -35,28 +68,20 @@ body {
     border-radius: 15px;
     background-color: white;
 }
-
-h1, h2 {
+h1, h2, h6, .link {
     font-weight: bold !important; 
 }
-
 h6 {
     font-family: monospace;
-    font-weight: bold !important;
 }
+
+
 .partTwo {
     background: url("./img/Shape.png") no-repeat left;
 
 }
 .carte :hover , .card :hover{
     transform: scale(0.9);
-}
-.link {
-    font-weight: bold;
-}
-
-.transform {
-    transform:rotate(-90deg) ;
 }
 
 .progress-bar {
@@ -78,3 +103,4 @@ h6 {
 .skills {
     background-color: white;
 }
+
