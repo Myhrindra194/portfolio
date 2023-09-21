@@ -42,7 +42,7 @@ h1, h2 {
 
 h6 {
     font-family: monospace;
-    font-weight: bold;
+    font-weight: bold !important;
 }
 .partTwo {
     background: url("./img/Shape.png") no-repeat left;
@@ -73,5 +73,8 @@ h6 {
     width: 40%;
 }
 .icon :hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
+}
+.skills {
+    background-color: white;
 }
