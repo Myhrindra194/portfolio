@@ -15,7 +15,7 @@ body, main {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(135deg, orange 60%, cyan);
-    transition: opacity 4s , visibility 0.5s;
+    transition: opacity 4s , visibility 0.75s;
 }
 .preloader-hide {
     opacity: 0;
@@ -27,7 +27,7 @@ body, main {
     border-top: 16px solid #34db82;
     width: 120px;
     height: 120px;
-    -webkit-animation: spin 2s linear infinite; /* Safari */
+    -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
   }
   @-webkit-keyframes spin {
@@ -76,29 +76,14 @@ h6 {
 }
 
 
+
 .partTwo {
     background: url("./img/Shape.png") no-repeat left;
 
 }
-.carte :hover , .card :hover{
-    transform: scale(0.9);
-}
 
-.progress-bar {
-    height: 15px;
-    border-radius: 5px;
-}
-.html {
-    width: 90%;
-}
-.css {
-    width: 75%;
-}
-.js {
-    width: 40%;
-}
 .icon :hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .skills {
     background-color: white;
