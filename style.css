@@ -6,6 +6,10 @@
 body, main {
     overflow-x: hidden;
 }
+.circle{
+    font-size: 40px;
+    padding: 10px;
+}
 
 .preloader {
     position: fixed;
@@ -82,7 +86,6 @@ h6 {
 
 .partTwo {
     background: url("./img/Shape.png") no-repeat left;
-
 }
 
 .icon :hover {
@@ -103,9 +106,9 @@ h6 {
     justify-content: center;
 }
 .circular-progress::before {
+    position: absolute;
     width: 150px;
     height: 150px;
-    position: absolute;
     border-radius: 50%;
     background-color: #fff;
     content: "";
