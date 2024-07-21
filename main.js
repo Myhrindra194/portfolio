@@ -5,7 +5,7 @@ navbarClone.classList.add("fixed-top", "bg-white", "border-bottom");
 
 window.addEventListener("scroll", () => {
     if (window.scrollY > 0)
-        document.querySelector("body").prepend(navbarClone);
+        document.body.prepend(navbarClone);
     else
         navbarClone.remove();
 })
