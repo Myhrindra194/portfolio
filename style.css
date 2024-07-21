@@ -6,6 +6,9 @@
 body {
     background-color: #fdfbf9;
 }
+.nav-item:hover {
+    border-bottom: #f80759 solid 2.5px;
+}
 .banner-logo {
     margin-top: -8vh;
     border-radius: 100px;
@@ -17,14 +20,11 @@ body {
     color: white;
 }
 .text-colored {
-    color: #f80759 !important;
+    color: #f80759;
 }
 .btn-colored {
     background-color: #f80759;
     border: none;
-}
-.btn-colored:hover {
-    scale: 1.1;
 }
 .circled-border {
     border: #f80759 solid 1px;
@@ -35,3 +35,4 @@ body {
     color: white;
     background-color: #f80759;
 }
+
