@@ -1,306 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mirindra Randriambolamanjato</title>
-    
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="main.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mirindra Randriambolamanjato</title>
+  <link rel="icon" href="./assets/Mlogo.png">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+  <script src="./main.js" defer></script>
 </head>
-<body>  
 
-  <!--  loader -->
-  <div class="preloader d-flex justify-content-center align-items-center">
-    <div class="loader"></div>
+<body>
+  <nav class="navbar navbar-expand-sm bg-light-subtle">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+
+        <div class="image"></div><img src="./assets/Mirindra.png" alt="Logo" style="width: 110px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav menu gap-3">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="pt-lg-0 pt-5 pb-5 bg-light-subtle ">
+    <div class="container">
+      <div class="row d-flex" id="home">
+        <section class="col-md-6 col-12 mt-lg-5">
+          <h2 class="mt-lg-5">Hi! 👋 <br> I'm <strong>Mirindra</strong> .</h2>
+          <h2 class="text-colored mt-3 fw-bold">A Front-End Developer Apprentice</h2>
+          <p class="lorem w-15 my-3 text-muted fs-5">
+            Currently on my second year at The University. I love combining the world of Mathematics, logic
+            and
+            creative design. Also have passion for numbers and solving problems.
+            I aim to become a creative developer.</p>
+          <button class="btn-colored px-5 py-3 mt-lg-5 fw-bold fs-5 text-light">Let's Talk</button>
+        </section>
+        <div class="col-md-6 col-12">
+          <img src="./assets/Hand-coding-rafiki.png" alt="Website developer" style="width:100%;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <section class="banner-logo shadow p-3">
+      <h5 class="ms-lg-5 ms-3 mt-3 text-muted">Contact me:</h5>
+      <div class="ms-lg-5 gap-3 gap-lg-4 d-flex my-3">
+        <div class="image">
+          <a href="https://web.facebook.com/myh.rindra.194">
+            <img src="./assets/facebook.png" alt="facebook">
+          </a>
+        </div>
+        <div class="image">
+          <a href="https://github.com/Myhrindra194">
+            <img src="./assets/github.png" alt="github">
+          </a>
+        </div>
+        <div class="image">
+          <a href="https://gitlab.com/myhrindra194">
+            <img src="./assets/gitlab.png" alt="gitlab">
+          </a>
+        </div>
+        <div class="image">
+          <a href="https://www.linkedin.com/in/myhrindra194">
+            <img src="./assets/linkedin.png" alt="linkedin">
+          </a>
+        </div>
+      </div>
+    </section>
   </div>
 
 
-
-      <!-- navigation bar -->
-      <nav class="navbar navbar-expand-sm sticky-top"> 
-        <div class="container" >
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navToCollapse"
-              aria-controls="navToCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span><i class="fas fa-bars"></i></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navToCollapse">
-                <ul class="navbar-nav menu">
-                    <li class="nav-item">
-                      <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                      </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#work">Work</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="logo">
-                <ul class="navbar-nav">
-                    <li class="nav-item icon">
-                      <a class="nav-link" href="https://github.com/Myhrindra194"><i class="fab fa-github github fs-5"></i></a>
-                    </li>
-                    <li class="nav-item icon">
-                      <a class="nav-link" href="https://web.facebook.com/myh.rindra.1"><i class="fab fa-facebook facebook fs-5"></i></a>
-                    </li>
-                    <li class="nav-item icon">
-                        <a class="nav-link" href="https://www.linkedin.com/in/mirindra-randriambolamanjato-864991286"><i class="fab fa-linkedin linkedin linkedin fs-5"></i></a>
-                      </li>
-                    <li class="nav-item icon">
-                      <a class="nav-link" href="https://gitlab.com/myhrindra194"><i class="fab fa-gitlab gitlab fs-5"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>  
-    </nav>
-
-
-    
-
-    
-    <div class=" partOne mt-5" id="home">
-      <!-- Content -->
-      <div class="container content border-3  pb-5" data-aos-duration="2500"  data-aos-easing="linear" data-aos="fade-down">
-        <div class="row d-flex justify-content-evenly pt-5 pb-5">
-          <div class=" col-xs-12 col-md-6 col-xl-4 pt-5 pb-5 description" data-aos-duration="2500"  data-aos-easing="linear" data-aos="fade-down">
-            <h1>Hi! I'm Mirindra .</h1>
-            <h2 class="text-warning mt-3">An IT STUDENT</h2>
-            <p class="lorem w-15 mt-3 mb-3 text-muted">Currently on my second year at The University. I love combining the world of Mathematics, logic and creative design. Also have passion for numbers and solving problems. I aim to become a data-scientist and a developer.</p>
-            <h6 >Email:</h6>
-            <p class="text-muted ">myhrindra194@gmail.com</p>
-            <a class="btn btn-warning mt-3 button text-light" href="#portfolio" role="button">About me</a>
-            <a class="btn btn-dark mt-3" href="#contact" role="button">Contact me</a>
-        </div>
-        <div class="image col-xs-12 col-md-6 col-xl-4  mt-5" data-aos-duration="2500" data-aos="zoom-in-up">
-          <img src="img/4738060.jpg" alt="image" style="width:100%;">
-        </div>
-        </div>
-    </div>
-
-
-
-
-    <!-- Carte -->
-    <div class="container mt-5 pt-5">
-      <div class="row d-flex justify-content-evenly mb-5 " >
-        <div class=" carte col-sm-10 col-md-4 " data-aos-duration="2000" data-aos="flip-left"  data-aos-easing="linear">
-          <div class="card check mt-4">
-            <div class="card-body text-center ">
-              <i class="fas fa-check-circle circle"></i>
-              <h6 class="card-subtitle mb-2">Problem-solving skills</h6>
-              <p class="card-text text-muted mb-3">Critical thinking, creativity, and information processing.</p>
-            </div>
-        </div>
+  <div class="container">
+    <div class="presentation row mt-lg-5" id="about">
+      <div class="col-lg-6 col-12">
+        <img src="./assets/Deconstructed-pana.png" alt="image" style="width:100%;">
       </div>
+      <section class="col-lg-6 col-12 mt-5">
+        <h2 class="mt-lg-5 fw-bold">Want to know more?</h2>
+        <h2 class="mt-3 text-colored fw-bold">About me</h2>
+        <p class="lorem text-muted fs-5 mt-lg-5 mb-5">My name is Mirindra RANDRIAMBOLAMANJATO. During high
+          school, I have always dreamed of beeing a scientist. After my high school years, I first discovered
+          the world of IT and I realized early on that mathematics and software engineering were the best
+          match. That leads me to develop skills around IT. Now, I enjoy creating things around the web.</p>
+        <a role="button" href="./CV/mycv.pdf" download="mycv"
+          class="cv-link btn-colored px-5 py-3 fw-bold fs-5 text-light">My resume </a>
 
-      <div class=" carte col-sm-10 col-md-4" data-aos-duration="2000" data-aos="flip-left"  data-aos-easing="linear">
-        <div class="card check mt-4">
-          <div class="card-body text-center ">
-            <i class="fas fa-check-circle text-warning circle"></i>
-            <h6 class="card-subtitle mb-2">Self-learning</h6>
-            <p class="card-text text-muted mb-3">Ability to learn new things outside the University program.</p>
-          </div>
-      </div>
-    </div>
-
-    <div class="carte col-sm-10 col-md-4" data-aos-duration="2000" data-aos="flip-left"  data-aos-easing="linear">
-      <div class="card check mt-4">
-        <div class="card-body text-center">
-          <i class="fas fa-check-circle circle "></i>
-          <h6 class="card-subtitle mb-2">Good communicator</h6>
-          <p class="card-text text-muted mb-3">Respect, confidence, concise, good-listener, clarity and honesty.</p>
-        </div>
+      </section>
     </div>
   </div>
-</div>
-</div>
-</div>
 
-
-
-<div class="partTwo my-5" id="portfolio">
-
-  <!-- Stack -->
-  <div class="container stack d-flex justify-content-between align-items-center " >
-    <div class="row skills mx-auto">
-    <div class="col-sm-12 col-xl-12 col-md-12">
-      <div class=" information " data-aos-duration="2000" data-aos="fade-down"  data-aos-easing="linear">
-        <h1 class="mt-5 text-center">What are my skills?</h1>
-        <h1 class="mt-3 text-warning text-center">Here they are</h1>
+  <section class="skills bg-light-subtle">
+    <div class="container mt-5 py-5">
+      <div class="justify-content-center d-flex">
+        <img src="./assets/Hand-coding-cuate.png" class="rounded-circle border" alt="Image" style="width: 150px;">
       </div>
-  
-  
-        <div class="col-sm-12 col-xl-12 col-md-12 bars">
-          <div class="cartes pb-5">
-  
-            <div class="row">
-              <div class="carte col-xl-3 col-md-4 col-sm-6 col-xs-4 mt-5 " data-aos-duration ="2000" data-aos="flip-left">
-                <div class="card py-3">
-                  <div class="card-body text-center">
-                    <div class="circular-progress">
-                      <span class="progress-value" data-value="74">0%</span>
-                   </div>
-                   <h5 class="card-title mt-2">HTML & CSS</h5>
-                  </div>
-                </div>
-              </div>
-              <div class=" carte col-xl-3 col-md-4 col-sm-6 col-xs-4 mt-5"  data-aos-duration="2000" data-aos="flip-left">
-                <div class="card py-3">
-                  <div class="card-body text-center">
-                   <div class="circular-progress">
-                      <span class="progress-value" data-value="53">0%</span>
-                   </div>
-                   <h5 class="card-title mt-2">JavaScript</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="carte col-xl-3 col-md-4 col-sm-6 col-xs-4 mt-5"  data-aos-duration="2000" data-aos="flip-left">
-                <div class="card py-3">
-                  <div class="card-body  text-center">
-                    <div class="circular-progress" >
-                      <span class="progress-value" data-value="65">0%</span>
-                   </div>
-                   <h5 class="card-title mt-2">MySQL</h5>
-                  </div>
-                </div>
-              </div>
-              <div class=" carte col-xl-3 col-md-4 col-sm-6 col-xs-4 mt-5" data-aos-duration="2000" data-aos="flip-left">
-                <div class="card py-3">
-                  <div class="card-body text-center ">
-                    <div class="circular-progress" >
-                      <span class="progress-value" data-value="60">0%</span>
-                   </div>
-                   <h5 class="card-title mt-2">Git & Github</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-        
-           
-          </div>
-        </div>
-        </div>
-        </div>
-        </div>
+      <h2 class="text-center fw-bold mt-3">Skills</h2>
 
+      <div class="row">
+        <section class="col-lg-4 col-12 mt-5">
+          <h3 class="fw-bold text-colored text-center my-4">Languages</h3>
 
-<!-- information -->
-  <div class="container about border-3 my-5">
-    <div class="row d-flex justify-content-evenly pt-5 pb-5" >
-    <div class="image col-xs-12 col-md-6 col-xl-4  mt-5" data-aos-duration="2000" data-aos="zoom-in-up"  data-aos-easing="linear">
-      <img src="img/4738060.jpg" alt="image"  style="width:100%;">
-    </div>
-  
-    <div class=" col-xs-12 col-md-6 col-xl-4 pt-5 pb-5 description " data-aos-duration="2000" data-aos="fade-left"  data-aos-easing="linear">
-      <h1 class="">Want to know more?</h1>
-      <h1 class="mt-3 text-warning">About me</h1>
-      <p class="lorem text-muted ">My name is Mirindra RANDRIAMBOLAMANJATO. During high school, I have always dreamed of beeing a scientist. After my high school years, I first discovered the world of IT and I realized early on that mathematics and software engineering were the best match. That leads me to develop skills around IT. Now, I enjoy creating things around the web.</p>
-      <h6 class="mt-5">You can also follow me here:</h6>
-      <div class="row d-flex justify-content-between contact mt-3">
-        <div class="link d-flex align-items-center col-xl-4 ">
-          <img src="img/2227.jpg" alt="image" style="width:50px;">
-          <a class="instagram text-decoration-none text-danger" href="https://www.instagram.com/myh.rindra">Instagram</a>
-        </div>
-        <div class="link d-flex align-items-center col-xl-4">
-          <img src="img/GitHub-Mark.png"  alt="image"  style="width:50px;">
-          <a class="twitter text-decoration-none text-dark" href="https://github.com/Myhrindra194">Github</a>
-        </div>
-  
-        <div class="link d-flex align-items-center col-xl-4">
-          <img src="img/410201-PD391H-802.jpg"  alt="image"  style="width:55px;">
-          <a class="whatsapp text-decoration-none text-success" href=" https://wa.me/261381001266">Whatsapp</a>
+          <button class="circled-border p-2 fw-bold mt-2 me-2">HTML5</button>
+          <button class="circled-border p-2 fw-bold mt-2 me-2">CSS3</button>
+          <button class="circled-border p-2 fw-bold mt-2 me-2">JavaScript</button>
+          <button class="circled-border p-2 fw-bold mt-2 me-2">Python</button>
+          <button class="circled-border p-2 fw-bold mt-2 me-2">Java</button>
+          <button class="circled-border p-2 fw-bold mt-2 me-2">SQL</button>
+        </section>
+        <section class="col-lg-4 col-12 mt-5">
+          <h3 class="fw-bold text-colored text-center my-4">Libraries & Frameworks</h3>
+          <button class="circled-border p-2 fw-bold mt-2 me-2">Bootstrap</button>
+          <button class="circled-border p-2 fw-bold mt-2 me-2">Django</button>
+        </section>
+        <section class="col-lg-4 col-12 mt-5">
+          <h3 class="fw-bold text-colored text-center my-4">Tools</h3>
+          <button class="circled-border p-2 fw-bold mt-2 me-2">Git</button>
+          <button class="circled-border p-2 fw-bold mt-2 me-2">GitHub</button>
+          <button class="circled-border p-2 fw-bold mt-2 me-2">GitLab</button>
+          <button class="circled-border p-2 fw-bold mt-2 me-2">Adobe Photoshop</button>
+        </section>
+        <section class="col-lg-4 col-12 mt-5">
+          <h3 class="fw-bold text-colored text-center my-4">Database</h3>
+          <button class="circled-border p-2 fw-bold mt-2 me-2">MySQL</button>
+          <button class="circled-border p-2 fw-bold mt-2 me-2">SqLite</button>
+        </section>
       </div>
     </div>
-    </div>
-    </div>
-  </div>
-</div>
+  </section>
 
 
-  <!-- Work -->
-  <div class="partOne">
-    <div class="container work border-3 mb-5 my-5" id="work">
-      <div class="row d-flex justify-content-evenly pt-5 pb-5">
-        <div class=" col-xs-12 col-md-6 col-xl-4 pt-5 pb-5 description">
-          <h1 class="mb-5" data-aos-duration="2000" data-aos="fade-right"  data-aos-easing="linear">Few Projects</h1>
-          <div class="card mb-3" style="max-width: 540px;"  data-aos-duration="2500" data-aos="zoom-in-up">
-            <div class="row g-0">
-              <div class="col-md-4 pt-3">
-                <img src="img/Capture.PNG" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h2 class="text-warning mt-3"> Calculator.</h2>
-                  <p class="lorem w-15 mt-3 mb-3 text-muted">A basic calculator made with HTML, CSS and JavaScript. This calculator can release basic calculation such as addition, multiplication, subtraction, division, square root of integers and float.</p>
-                  <a role="button" class="btn btn-warning button" href="https://calculatrice-by-mirindra.netlify.app/">Demo</a>
-                  <a role="button" class="btn btn-dark" href="https://github.com/Myhrindra194/calculatrice">Source code</a>
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-      <div class="image col-xs-12 col-md-6 col-xl-4  mt-3" data-aos-duration="2500" data-aos="zoom-in-up">
-        <div class="card mb-3">
-          <img src="img/todo.PNG" class="card-img-top" alt="...">
+  <section class="container project mt-5" id="work">
+    <h2 class="fw-bold text-center mt-5">Personal Project</h2>
+
+    <div class="row">
+      <div class="col-lg-4 col-12 mt-5">
+        <div class="card">
+          <img src="./assets/budget.png" alt="budget">
           <div class="card-body">
-            <h2 class="text-warning mt-3"> Todo list.</h2>
-            <p class="lorem w-15 mb-3 text-muted">Todo List generate with HTML, CSS and JavaScript using localstorage: meaning that all data are not lost even the user refresh the page. This todo list can add, edit, delete tasks entered by the users. </p>
-            <a role="button" class="btn btn-warning button" href="https://todolist-by-mirindra.netlify.app/">Demo</a>
-            <a role="button" class="btn btn-dark" href="https://github.com/Myhrindra194/todolist" >Source code</a>
+            <h2 class="text-colored mt-3 fw-bold">Budget planner</h2>
+            <p class="lorem w-15 mb-3 text-muted">
+              A website which records user's income and outgoings so they can easily evaluate their
+              budget.
+            </p>
+            <a role="button" class="btn btn-outline-secondary text-colored"
+              href="https://myhrindra194.github.io/budget-planner">View
+              Live</a>
+            <a role="button" class="btn btn-secondary" href="https://github.com/Myhrindra194/budget-planner">GitHub</a>
           </div>
         </div>
-        
       </div>
-      
+      <div class="col-lg-4 col-12 mt-5">
+        <div class="card">
+          <img src="./assets/pulse.png" alt="budget">
+          <div class="card-body">
+            <h2 class="text-colored mt-3 fw-bold">Integration Pulse</h2>
+            <p class="lorem w-15 mb-3 text-muted">
+              An integration of a website from <a href="https://pulseapp.com/pricing">FrontEnd
+                Practice</a>.
+            </p>
+            <a role="button" class="btn btn-outline-secondary text-colored"
+              href="https://myhrindra194.github.io/integration-pulse/">View
+              Live</a>
+            <a role="button" class="btn btn-secondary"
+              href="https://github.com/Myhrindra194/integration-pulse">GitHub</a>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-lg-4 col-12 mt-5">
+        <div class="card">
+          <img src="./assets/universite.png" alt="budget">
+          <div class="card-body">
+            <h2 class="text-colored mt-3 fw-bold">UniverSite</h2>
+            <p class="lorem w-15 mb-3 text-muted">
+              A web application which helps students who are seeking for
+              university in Madagascar and give them orientation for choosing major.
+            </p>
+            <a role="button" class="btn btn-outline-secondary text-colored"
+              href="https://myhrindra194.github.io/universite/">View
+              Live</a>
+            <a role="button" class="btn btn-secondary" href="https://github.com/Myhrindra194/universite">GitHub</a>
+          </div>
+        </div>
+      </div>
+      <div class=" col-lg-4 col-12 mt-5">
+        <div class="card">
+          <img src="./assets/todolist.png" alt="budget">
+          <div class="card-body">
+            <h2 class="text-colored mt-3 fw-bold"> Todo list.</h2>
+            <p class="lorem w-15 mb-3 text-muted">
+              A website which store user's todo list where they can add, update and delete tasks.
+            </p>
+            <a role="button" class="btn btn-outline-secondary text-colored"
+              href="https://todolist-by-mirindra.netlify.app/">View
+              Live</a>
+            <a role="button" class="btn btn-secondary" href="https://github.com/Myhrindra194/todolist">GitHub</a>
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
-  </div>
 
-
-
-
- <footer class="bg-dark" id="contact">
- <!-- Contact  -->
-  <div class="contact text-light text-center " >
+  </section>
+  <footer class=" mt-5 bg-dark" id="contact">
+    <!-- Contact  -->
+    <div class="contact text-light text-center ">
       <div class="container">
-        <h1 class="title text-center border-bottom border-warning border-3 py-4 pt-5">CONTACT ME</h1>
-      <div class="contact-text  py-3 ">
+        <h1 class="title text-center border-bottom border-light border-3 py-4 pt-5">CONTACT ME</h1>
+        <div class="contact-text  py-3 ">
           <h1 class="py-3">Location</h1>
           <p>Madagascar, ANTANANARIVO</p>
 
           <h1 class="py-3">Around the web</h1>
           <div class="list text-light">
-              <i class="fab fa-facebook icon fs-5 px-2"></i>
-              <i class="fab fa-github icon fs-5 px-2"></i>
-              <i class="fab fa-instagram icon fs-5 px-2"></i>
-              <i class="fab fa-linkedin icon fs-5 px-2"></i>
-              <i class="fab fa-gitlab icon fs-5 px-2"></i>
+            <i class="fab fa-facebook icon fs-5 px-2"></i>
+            <i class="fab fa-github icon fs-5 px-2"></i>
+            <i class="fab fa-instagram icon fs-5 px-2"></i>
+            <i class="fab fa-linkedin icon fs-5 px-2"></i>
+            <i class="fab fa-gitlab icon fs-5 px-2"></i>
           </div>
-          <p class="text-muted text-center pt-5">Copyright: Mirindra September 2023</p>
-      </div>
-      
-      </div>
-      
-  </div>
- </footer>
+          <p class="text-light text-center pt-5">Copyright: Mirindra July 2024</p>
+        </div>
 
+      </div>
 
- <script>
-  AOS.init();
-</script>
+    </div>
+  </footer>
+
 </body>
-
 
 </html>
