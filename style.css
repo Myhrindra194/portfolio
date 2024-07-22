@@ -37,8 +37,14 @@ body {
 .circled-border:hover {
     color: white;
     background-color: #f80759;
+    transition: 0.2s;
 }
-
+.name {
+    display: inline-block;
+}
+.name-border {
+    border-right: 3px solid #f80759;
+}
 footer {
     background-color: #f80759;
 }
