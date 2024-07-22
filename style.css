@@ -6,8 +6,11 @@
 body {
     background-color: #fdfbf9;
 }
-.nav-item:hover {
+.nav-link:hover {
+    font-weight: bold;
+    color: #f80759 !important;
     border-bottom: #f80759 solid 2.5px;
+    transition: 0.2s;
 }
 .banner-logo {
     margin-top: -8vh;
@@ -36,3 +39,6 @@ body {
     background-color: #f80759;
 }
 
+footer {
+    background-color: #f80759;
+}
